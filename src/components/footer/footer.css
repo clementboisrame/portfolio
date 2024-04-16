@@ -1,0 +1,21 @@
+footer{
+
+    background: var(--color-primary);
+    padding: 3rem;
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 7rem;
+
+}
+footer a {
+    color: var(--color-bg);
+
+}
+.permalink{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0 auo 3rem;
+
+}
