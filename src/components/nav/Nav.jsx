@@ -12,11 +12,11 @@ const Nav = () => {
 
   return (
     <nav>
-      <a href='#' onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><GoHome /></a>
-      <a href='#about' onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}><LuUser2 /></a>
-      <a href='#experience' onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}><RiBook2Line /></a>
-      <a href='#services' onClick={() => setActiveNav('#services')} className={activeNav === '#services' ? 'active' : ''}><RiServiceLine /></a>
-      <a href='#contact' onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><BiMessageDetail /></a>
+      <a href='#' onClick={() => setActiveNav('#')}rel="noreferrer" className={activeNav === '#' ? 'active' : ''}><GoHome /></a>
+      <a href='#about' onClick={() => setActiveNav('#about')}rel="noreferrer" className={activeNav === '#about' ? 'active' : ''}><LuUser2 /></a>
+      <a href='#experience' onClick={() => setActiveNav('#experience')}rel="noreferrer" className={activeNav === '#experience' ? 'active' : ''}><RiBook2Line /></a>
+      <a href='#services' onClick={() => setActiveNav('#services')}rel="noreferrer" className={activeNav === '#services' ? 'active' : ''}><RiServiceLine /></a>
+      <a href='#contact' onClick={() => setActiveNav('#contact')}rel="noreferrer" className={activeNav === '#contact' ? 'active' : ''}><BiMessageDetail /></a>
     </nav>
   )
 }

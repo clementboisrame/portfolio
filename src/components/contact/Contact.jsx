@@ -26,13 +26,13 @@ const Contact = () => {
         <HiOutlineMail className='contact__option-icon' />
           <h4>Email</h4>
           <h5>cboisrame1@gmail.com</h5>
-          <a href='mailto:cboisrame1@gmail.com'target='blank'>Send a message</a>
+          <a href='mailto:cboisrame1@gmail.com'target='blank'rel="noreferrer">Send a message</a>
         </article>  
               <article className='contact__option'>
               <MdOutlineWhatsapp className='contact__option-icon'/>
           <h4>WhatsApp</h4>
           <h5>+33633339980   </h5>
-          <a href="https://api.whatsapp.com/send?phone=+33633339980" target='blank'>Send a message</a>
+          <a href="https://api.whatsapp.com/send?phone=+33633339980" target='blank'rel="noreferrer">Send a message</a>
         </article>       
 
       </div>

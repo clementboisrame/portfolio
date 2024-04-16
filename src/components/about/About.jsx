@@ -48,7 +48,7 @@ const About = () => {
 </div>
           <p>Welcome to my portfolio. Here are some projects I'm currently working on. I will be adding demo videos in the near future.
           </p>
-          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+          <a href="#contact" rel="noreferrer" className='btn btn-primary'>Let's Talk</a>
         </div>
       </div>
     </section>

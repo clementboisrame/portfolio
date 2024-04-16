@@ -16,7 +16,7 @@ const Portfolio = () => {
           </div>
           <h3>Externatic</h3>
           <div className='portfolio__item-cta'>
-            <a href='https://github.com' className='btn' target='_blank'>Github</a>
+            <a href='https://github.com' className='btn' rel="noreferrer" target='_blank'>Github</a>
           </div>
         </article>
         <article className='portfolio__item'>
@@ -25,7 +25,7 @@ const Portfolio = () => {
           </div>
           <h3>Nba Morning</h3>
           <div className='portfolio__item-cta'>
-            <a href='https://github.com' className='btn' target='_blank'>Github</a>
+            <a href='https://github.com' className='btn'rel="noreferrer" target='_blank'>Github</a>
           </div>
         </article>
        
